@@ -1,0 +1,96 @@
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+    }
+    nav li{
+      display: inline-block;
+      margin: 10px;
+    
+    }
+    
+    header {
+      background-color: #111;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      font-weight: 400;
+      color: #fff;
+    }
+
+    .container {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      font-size: 1.1em;
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-family: 'Fira Code', monospace;
+      font-weight: 300;
+      font-size: 1.6em;
+      color: #00ffe1;
+      margin-bottom: 10px;
+    }
+
+    p, li {
+      font-weight: 200;
+      font-size: 1.05em;
+      color: #dcdcdc;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 12px;
+      margin: 25px 0;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    }
+
+    section {
+      margin-bottom: 50px;
+      border-left: 3px solid #00ffe1;
+      padding-left: 15px;
+    }
+
+    a {
+      color: #00ffe1;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #ffffff;
+    }
+
+
+    .info-box {
+      background-color: #111;
+      border: 1px solid #00ffe1;
+      border-left: 5px solid #00ffe1;
+      padding: 20px;
+      margin-bottom: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .info-box:hover {
+      transform: scale(1.02);
+    }
